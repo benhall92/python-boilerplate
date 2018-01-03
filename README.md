@@ -33,22 +33,28 @@
 </code>
 </pre>
 <h3>3. Creating Application Folders</h3>
+<pre>
 <code>
-mkdir ~/LargeApp<br/>
-mkdir ~/LargeApp/app<br/>
-mkdir ~/LargeApp/app/templates<br/>
-mkdir ~/LargeApp/app/static<br/>
+mkdir ~/LargeApp  
+mkdir ~/LargeApp/app  
+mkdir ~/LargeApp/app/templates  
+mkdir ~/LargeApp/app/static  
 </code>
+</pre>
 <h3>4. Creating A Virtual Environment</h3>
 <p></p>
+<pre>
 <code>
-cd         ~/LargeApp<br/>
+cd         ~/LargeApp  
 virtualenv env
 </code>
+</pre>
 <h3>5. Create Application Files</h3>
+<pre>
 <code>
-touch ~/LargeApp/run.py<br/>
-touch ~/LargeApp/config.py<br/>
+touch ~/LargeApp/run.py  
+touch ~/LargeApp/config.py  
 touch ~/LargeApp/app/__init__.py
 </code>
+</pre>
 
