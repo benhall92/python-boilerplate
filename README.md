@@ -12,23 +12,23 @@
 <h2>2. Structure</h2>
 <code>
 ~/LargeApp<br/>
-    |-- run.py<br/>
-    |-- config.py<br/>
-    |__ /env             # Virtual Environment<br/>
-    |__ /app             # Our Application Module<br/>
-         |-- __init__.py<br/>
-         |-- /module_one<br/>
-             |-- __init__.py<br/>
-             |-- controllers.py<br/>
-             |-- models.py<br/>                
-         |__ /templates<br/>
-             |__ /module_one<br/>
-                 |-- hello.html<br/>
-         |__ /static<br/>
-         |__ ..<br/>
-         |__ .<br/>
-    |__ ..<br/>
-    |__ .<br/>
+    |-- run.py
+    |-- config.py
+    |__ /env             # Virtual Environment
+    |__ /app             # Our Application Module
+		|-- __init__.py
+		|-- /module_one
+			|-- __init__.py
+			|-- controllers.py
+			|-- models.py
+		|__ /templates
+			|__ /module_one
+				|-- hello.html
+		|__ /static
+		|__ ..
+		|__ .
+	|__ ..
+	|__ .
 </code>
 <h3>3. Creating Application Folders</h3>
 <code>
