@@ -10,26 +10,28 @@
 <p><strong>sudo pip install virtualenv</strong></p>
 <code>sudo pip install virtualenv</code>
 <h2>2. Structure</h2>
+<pre>
 <code>
-~/LargeApp<br/>
-    |-- run.py
-    |-- config.py
-    |__ /env             # Virtual Environment
-    |__ /app             # Our Application Module
-		|-- __init__.py
-		|-- /module_one
-			|-- __init__.py
-			|-- controllers.py
-			|-- models.py
-		|__ /templates
-			|__ /module_one
-				|-- hello.html
-		|__ /static
-		|__ ..
-		|__ .
-	|__ ..
+~/LargeApp  
+    |-- run.py  
+    |-- config.py  
+    |__ /env             # Virtual Environment  
+    |__ /app             # Our Application Module  
+		|-- __init__.py  
+		|-- /module_one  
+			|-- __init__.py  
+			|-- controllers.py  
+			|-- models.py  
+		|__ /templates  
+			|__ /module_one  
+				|-- hello.html  
+		|__ /static  
+		|__ ..  
+		|__ .  
+	|__ ..  
 	|__ .
 </code>
+</pre>
 <h3>3. Creating Application Folders</h3>
 <code>
 mkdir ~/LargeApp<br/>
