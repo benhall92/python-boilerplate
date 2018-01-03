@@ -8,7 +8,14 @@
 
 <h2>1. Setting up Python, pip and virtualenv</h2>
 <p><strong>sudo pip install virtualenv</strong></p>
-<code>sudo pip install virtualenv</code>
+<pre>
+<code>
+sudo pip install virtualenv  
+sudo pip install flask  
+sudo pip install Flask-WTF  
+sudo pip install flask-sqlalchemy
+</code>
+</pre>
 <h2>2. Structure</h2>
 <pre>
 <code>
@@ -41,20 +48,12 @@ mkdir ~/LargeApp/app/templates
 mkdir ~/LargeApp/app/static  
 </code>
 </pre>
-<h3>4. Creating A Virtual Environment</h3>
-<p></p>
+<h3>4. Run the App locally</h3>
+<p>CD in to /LargeApp.</p>
 <pre>
 <code>
-cd         ~/LargeApp  
-virtualenv env
+python run.py  
 </code>
 </pre>
-<h3>5. Create Application Files</h3>
-<pre>
-<code>
-touch ~/LargeApp/run.py  
-touch ~/LargeApp/config.py  
-touch ~/LargeApp/app/__init__.py
-</code>
-</pre>
+<p>Visit the site at http://0.0.0.0:8080/</p>
 
