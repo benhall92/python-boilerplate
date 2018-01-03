@@ -11,42 +11,42 @@
 <code>sudo pip install virtualenv</code>
 <h2>2. Structure</h2>
 <code>
-~/LargeApp
-    |-- run.py
-    |-- config.py
-    |__ /env             # Virtual Environment
-    |__ /app             # Our Application Module
-         |-- __init__.py
-         |-- /module_one
-             |-- __init__.py
-             |-- controllers.py
-             |-- models.py                
-         |__ /templates
-             |__ /module_one
-                 |-- hello.html
-         |__ /static
-         |__ ..
-         |__ .
-    |__ ..
-    |__ .
+~/LargeApp<br/>
+    |-- run.py<br/>
+    |-- config.py<br/>
+    |__ /env             # Virtual Environment<br/>
+    |__ /app             # Our Application Module<br/>
+         |-- __init__.py<br/>
+         |-- /module_one<br/>
+             |-- __init__.py<br/>
+             |-- controllers.py<br/>
+             |-- models.py<br/>                
+         |__ /templates<br/>
+             |__ /module_one<br/>
+                 |-- hello.html<br/>
+         |__ /static<br/>
+         |__ ..<br/>
+         |__ .<br/>
+    |__ ..<br/>
+    |__ .<br/>
 </code>
 <h3>3. Creating Application Folders</h3>
 <code>
-mkdir ~/LargeApp
-mkdir ~/LargeApp/app
-mkdir ~/LargeApp/app/templates
-mkdir ~/LargeApp/app/static 
+mkdir ~/LargeApp<br/>
+mkdir ~/LargeApp/app<br/>
+mkdir ~/LargeApp/app/templates<br/>
+mkdir ~/LargeApp/app/static<br/>
 </code>
 <h3>4. Creating A Virtual Environment</h3>
 <p></p>
 <code>
-cd         ~/LargeApp
+cd         ~/LargeApp<br/>
 virtualenv env
 </code>
 <h3>5. Create Application Files</h3>
 <code>
-touch ~/LargeApp/run.py
-touch ~/LargeApp/config.py
+touch ~/LargeApp/run.py<br/>
+touch ~/LargeApp/config.py<br/>
 touch ~/LargeApp/app/__init__.py
 </code>
 
