@@ -39,16 +39,7 @@ sudo pip install flask-sqlalchemy
 	|__ .
 </code>
 </pre>
-<h3>3. Creating Application Folders</h3>
-<pre>
-<code>
-mkdir ~/LargeApp  
-mkdir ~/LargeApp/app  
-mkdir ~/LargeApp/app/templates  
-mkdir ~/LargeApp/app/static  
-</code>
-</pre>
-<h3>4. Run the App locally</h3>
+<h3>3. Run the App locally</h3>
 <p>CD in to /LargeApp.</p>
 <pre>
 <code>

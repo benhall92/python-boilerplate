@@ -15,7 +15,7 @@ from app.mod_auth.forms import LoginForm
 from app.mod_auth.models import User
 
 # Define the blueprint: 'auth', set its url prefix: app.url/auth
-mod_auth = Blueprint('mod_auth', __name__, url_prefix='/auth')
+mod_auth = Blueprint('auth', __name__, url_prefix='/auth')
 
 # Set the route and accepted methods
 @mod_auth.route('/signin/', methods=['GET', 'POST'])
